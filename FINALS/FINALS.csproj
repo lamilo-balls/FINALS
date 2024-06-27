@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BANK-OF-GOTHAM-6-25-2024.png" />
+    <None Remove="be05207316d39ac713961267c5f7c7a7-removebg-preview.png" />
+    <None Remove="be05207316d39ac713961267c5f7c7a7.png" />
+    <None Remove="black-white-silhouette-city-with-skyscraper-background_932258-8.png" />
+    <None Remove="Screenshot 2024-06-26 003538.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BANK-OF-GOTHAM-6-25-2024.png" />
+    <Resource Include="be05207316d39ac713961267c5f7c7a7-removebg-preview.png" />
+    <Resource Include="be05207316d39ac713961267c5f7c7a7.png" />
+    <Resource Include="black-white-silhouette-city-with-skyscraper-background_932258-8.png" />
+    <Resource Include="Screenshot 2024-06-26 003538.png" />
+  </ItemGroup>
+
+</Project>

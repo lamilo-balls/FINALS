@@ -1,0 +1,26 @@
+﻿<Window x:Class="FINALS.Deposit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINALS"
+        mc:Ignorable="d"
+        Title="Deposit" Height="450" Width="800">
+    <Grid Background="Black">
+        <Label Content="Enter Deposit Amount" Height="88" Margin="0,38,0,0" VerticalAlignment="Top" Width="428" HorizontalContentAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="White"/>
+        <Button Content="1" HorizontalAlignment="Left" Height="37" Margin="327,207,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="37" Margin="433,207,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="2" HorizontalAlignment="Center" Height="37" Margin="0,207,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="37" Margin="327,259,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="37" Margin="433,259,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="5" HorizontalAlignment="Center" Height="37" Margin="0,259,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="37" Margin="327,310,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="37" Margin="433,310,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="8" HorizontalAlignment="Center" Height="37" Margin="0,310,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <Button Content="YES" HorizontalAlignment="Left" Height="37" Margin="327,362,0,0" VerticalAlignment="Top" Width="40" Click="confirm"/>
+        <Button Content="NO" HorizontalAlignment="Left" Height="37" Margin="433,362,0,0" VerticalAlignment="Top" Width="40" Click="cancel"/>
+        <Button Content="0" HorizontalAlignment="Center" Height="37" Margin="0,362,0,0" VerticalAlignment="Top" Width="40" Click="numpad1"/>
+        <TextBox x:Name="display" HorizontalAlignment="Center" Height="71" Margin="0,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" HorizontalContentAlignment="Center" FontSize="22"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Height="38" Margin="22,21,0,0" VerticalAlignment="Top" Width="78" Click="back2options"/>
+    </Grid>
+</Window>
